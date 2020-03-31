@@ -1,0 +1,11 @@
+language: python
+python:
+    - "3.7"
+
+services:
+    - docker
+
+before_script: pip install docker-compse
+
+script:
+    - docker-compse run app sh -c "python manage.py test && flake8"
