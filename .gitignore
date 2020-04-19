@@ -130,3 +130,6 @@ dmypy.json
 
 # VScode Files
 .vscode
+
+# Data volume
+data-volume/
