@@ -28,5 +28,6 @@ services:
             - POSTGRES_PASSWORD=supersecretpassword
         volumes:
             - "./data-volume:/var/lib/postgresql/data"
+            
 volumes:
     data-volume:
